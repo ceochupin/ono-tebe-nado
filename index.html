@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <header class="header" id="home">
+    <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
@@ -32,14 +32,12 @@
           alt="Логотип «Оно тебе надо»"
         />
       </a>
-
-      <article class="header__address">
-        <address class="address">
-          <a href="tel:+99995555555">+9 999 555 5555</a><br />
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
-        </address>
-      </article>
+      
+      <address class="header__address address">
+        <a href="tel:+99995555555">+9 999 555 5555</a><br />
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
+      </address>
     </header>
 
     <main>
@@ -122,11 +120,12 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
+        
+        <a class="lots__look-more-link" href="#0" target="_blank">посмотреть больше</a>
       </section>
 
       <section class="about" id="about">
-        <aside class="about__column">
+        <article class="about__column">
           <div class="about__logo">
             <img
               class="about__logo-image"
@@ -150,7 +149,7 @@
             представить современную культуру. Когда в эти вещи не верил никто,
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
-        </aside>
+        </article>
       </section>
     </main>
 
@@ -164,15 +163,13 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#home">главная</a>
+            <a class="footer__menu-link footer__menu-link_active">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link footer__menu-link_active"
-              >об аукционе</a
-            >
+            <a class="footer__menu-link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
