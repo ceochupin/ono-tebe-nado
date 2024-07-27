@@ -83,26 +83,22 @@
   color: #fff;
   font-weight: bold;
   font-size: 100px;
-  line-height: 1;
+  line-height: 1.15;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
 
 .aligned-text {
-  /* по макету высота этой строки действительно 115px */
-  /* поэтому в cover высота строк = 1, а первая 1.15 */
-  /* в первой итерации было аналагично только в px */
-
-  line-height: 1.15;
-
   text-align: left;
 }
 
 .aligned-text_center {
+  line-height: 1;
   text-align: center;
 }
 
 .aligned-text_right {
+  line-height: 1;
   text-align: right;
 }
 
