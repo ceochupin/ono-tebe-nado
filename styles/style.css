@@ -3,8 +3,8 @@
 .header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  min-height: 105px;
   align-items: center;
+  min-height: 105px;
   margin: 92px 24px;
 }
 
@@ -54,9 +54,9 @@
   width: 240px;
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.35;
-  text-underline-offset: 4px;  
   font-style: inherit;
+  line-height: 1.35;
+  text-underline-offset: 4px;
 }
 
 /* Селекторы для обдлжки */
@@ -89,14 +89,14 @@
 }
 
 .aligned-text {
+  margin-bottom: 20px;
   line-height: 1.15;
   text-align: left;
-  margin-bottom: 20px;
 }
 
 .aligned-text_center {
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .aligned-text_right {
@@ -161,8 +161,8 @@
 }
 
 .lots__card-list-item {
-  flex-basis: 334px;
   flex-grow: 1;
+  flex-basis: 334px;
   min-height: 563px;
 }
 
