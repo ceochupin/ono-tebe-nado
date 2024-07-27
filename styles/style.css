@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  min-height: 105px;
   margin: 92px 24px;
 }
 
@@ -79,6 +78,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px 0;
   margin-bottom: 135px;
   color: #fff;
   font-weight: bold;
@@ -89,13 +89,16 @@
 }
 
 .aligned-text {
-  margin-bottom: 20px;
+  /* по макету высота этой строки действительно 115px */
+  /* поэтому в cover высота строк = 1, а первая 1.15 */
+  /* в первой итерации было аналагично только в px */
+
   line-height: 1.15;
+
   text-align: left;
 }
 
 .aligned-text_center {
-  margin-bottom: 20px;
   text-align: center;
 }
 
