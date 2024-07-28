@@ -9,12 +9,12 @@
 
 .header__menu {
   justify-self: start;
-  margin-left: 26.52px;
+  margin: 0 0 0 26.52px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 33px;
+  gap: 0 33px;
   font-weight: normal;
   font-size: 18px;
 }
@@ -46,15 +46,12 @@
 
 .header__address {
   justify-self: end;
-  margin-right: 25.48px;
+  margin: 0 25.48px 0 0;
 }
 
 .address {
   width: 240px;
-  font-weight: normal;
-  font-size: 18px;
-  font-style: inherit;
-  line-height: 1.35;
+  font: normal 18px/1.35 Raleway, Arial, Helvetica, sans-serif;
   text-underline-offset: 4px;
 }
 
@@ -129,10 +126,7 @@
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
   color: #fff;
-  font-family: Raleway, Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 1.18;
+  font: normal 22px/1.18 Raleway, Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   background: transparent;
 }
