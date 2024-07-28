@@ -124,9 +124,9 @@
 
 .bet-button {
   border: 1px solid #fff;
-  padding: 12px 32px 11px 31px;
+  padding: 12px 32px;
   color: #fff;
-  font: normal 22px/1.18 Raleway, Arial, Helvetica, sans-serif;
+  font: normal 22px/1.2 Raleway, Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   background: transparent;
 }
@@ -154,14 +154,12 @@
 }
 
 .lots__card-list-item {
-  flex-grow: 1;
-  flex-basis: 334px;
+  flex: 1 334px;
   min-height: 563px;
 }
 
 .card-link {
   display: flex;
-  min-width: 100%;
   min-height: 100%;
   text-decoration: none;
 }
